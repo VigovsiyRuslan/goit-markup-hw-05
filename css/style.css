@@ -67,6 +67,10 @@ li {
 
 /* Шапка */
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .container-header {
   padding-left: 15px;
   padding-right: 15px;
@@ -161,11 +165,12 @@ li {
   content: "";
   position: absolute;
   left: 0;
-  top: 44px;
+  top: 45px;
 
   display: block;
   width: 100%;
   height: 4px;
+  border-radius: 2px;
   background-color: var(--accent-color);
 }
 
