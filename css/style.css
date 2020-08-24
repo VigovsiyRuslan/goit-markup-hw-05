@@ -161,7 +161,7 @@ li {
   content: "";
   position: absolute;
   left: 0;
-  top: 28px;
+  top: 44px;
 
   display: block;
   width: 100%;
@@ -354,8 +354,6 @@ li {
 }
 .clients-company-link {
   color: #afb1b8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-company-link:hover,
@@ -402,6 +400,8 @@ li {
   text-align: center;
   border: 0;
   border-radius: 4px;
+
+  cursor: pointer;
 
   color: var(--complementary-color);
   background-color: var(--accent-color);
